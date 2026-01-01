@@ -7,3 +7,4 @@ Vite
 Storybook
 React Router
 Zustand
+Pnpm
