@@ -1,1 +1,36 @@
 @import "tailwindcss";
+
+@theme {
+    /* Colors */
+    --color-primary: var(--color-base);
+    --color-primary-hover: var(--color-base-dark);
+    --color-secondary: var(--color-text);
+    
+    /* Text */
+    --font-family-base: 'Helvetica Neue', Arial, sans-serif;
+    --font-size-base: 16px;
+
+    /* Spacing */
+    --spacing-base: 1rem;
+}
+
+:root {
+    /* Colors */
+    --color-base: var(--color-neutral-300);
+    --color-base-dark: var(--color-neutral-400);
+    --color-text: var(--color-neutral-900);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Colors */
+        --color-base: var(--color-neutral-900);
+        --color-base-dark: var(--color-neutral-800);
+        --color-text: var(--color-neutral-300);
+    }
+}
+
+body {
+    background: var(--color-primary);
+    color: var(--color-secondary);
+}

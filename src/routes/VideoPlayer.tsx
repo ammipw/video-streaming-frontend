@@ -23,7 +23,7 @@ export default function VideoPlayerPage() {
     <>
       <Header />
       <main>
-        <div className="h-[60vh] w-full bg-neutral-900"></div>
+        <div className="h-[60vh] w-full bg-black"></div>
         <h1>{videoData?.title}</h1>
         <p>{videoData?.duration}</p>
       </main>
