@@ -7,8 +7,10 @@ export default function BrowserPage() {
   return (
     <>
       <Header />
-      <main className="p-4">
-        <VideoList list={recommendedVideos}/>
+      <main>
+        <div className="max-w-(--max-width) mx-auto">
+          <VideoList list={recommendedVideos}/>
+        </div>
       </main>
       <Footer />
     </>

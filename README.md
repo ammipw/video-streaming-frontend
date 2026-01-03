@@ -1,10 +1,17 @@
 # Video Streaming Platform
 
+## Tech Stack
+
+Pnpm
+Vite
 React
 TypeScript
 Tailwind CSS
-Vite
-Storybook
 React Router
+Storybook
 Zustand
-Pnpm
+Framer Motion
+
+## UI Inspiration
+
+https://dribbble.com/shots/17940715-Gege-Gemink-Games-Streaming-Landing-Page

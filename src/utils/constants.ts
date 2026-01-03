@@ -1,1 +1,1 @@
-export const APP_NAME = "YouTube Clone";
+export const APP_NAME = "VidStream";

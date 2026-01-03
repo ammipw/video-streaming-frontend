@@ -1,9 +1,36 @@
 const recommendedVideos = [
-  { id: '1', title: 'Learn React in 30 Minutes', duration: '30:00', url: '/videos/1' },
-  { id: '2', title: 'Understanding TypeScript', duration: '45:00', url: '/videos/2' },
-  { id: '3', title: 'Advanced JavaScript Concepts', duration: '50:00', url: '/videos/3' },
-  { id: '4', title: 'CSS Flexbox and Grid Tutorial', duration: '25:00', url: '/videos/4' },
-  { id: '5', title: 'Building REST APIs with Node.js', duration: '40:00', url: '/videos/5' },
+  {
+    "id": "v1",
+    "title": "Elden Ring: Shadow of the Erdtree - No Hit Run",
+    "streamer": "LimgraveLegend",
+    "game": "Elden Ring",
+    "viewers": 15400,
+    "url": "https://stream.platform/v1"
+  },
+  {
+    "id": "v2",
+    "title": "VALORANT Ranked Solo Queue",
+    "streamer": "AcePilot",
+    "game": "VALORANT",
+    "viewers": 3200,
+    "url": "https://stream.platform/v2"
+  },
+  {
+    "id": "v3",
+    "title": "Minecraft Hardcore World - Day 1000",
+    "streamer": "BlockBuilder",
+    "game": "Minecraft",
+    "viewers": 890,
+    "url": "https://stream.platform/v3"
+  },
+  {
+    "id": "v4",
+    "title": "League of Legends Finals Watchparty",
+    "streamer": "MidLaneQueen",
+    "game": "League of Legends",
+    "viewers": 45100,
+    "url": "https://stream.platform/v4"
+  }
 ]
 
 export function getVideos() {
